@@ -29,6 +29,7 @@ define Package/libpcre2/default
   SECTION:=libs
   CATEGORY:=Libraries
   URL:=http://www.pcre.org/
+  ABI_VERSION:=16
 endef
 
 define Package/libpcre2

@@ -206,7 +206,7 @@ transmission_mount_triggers() {
 	[ "$incomplete_dir_enabled" = "0" ] || service_dirs="$service_dirs $incomplete_dir"
 	[ "$watch_dir_enabled" = "0" ] || service_dirs="$service_dirs $watch_dir"
 
-	procd_add_restart_mount_trigger $service_dirs
+#	procd_add_restart_mount_trigger $service_dirs
 }
 
 service_triggers() {

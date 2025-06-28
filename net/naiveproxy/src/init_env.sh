@@ -19,6 +19,9 @@ case "${target_arch}" in
 "i386")
 	naive_arch="x86"
 	;;
+"loongarch64")
+	naive_arch="loong64"
+	;;
 "x86_64")
 	naive_arch="x64"
 	;;

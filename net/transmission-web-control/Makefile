@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=transmission-web-control
-PKG_RELEASE:=3
+PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/ronggang/transmission-web-control
@@ -21,7 +21,7 @@ define Package/transmission-web-control
   SUBMENU:=BitTorrent
   DEPENDS:=+transmission-daemon
   CONFLICTS:=transmission-web
-  TITLE:=Transmission Web Control
+  TITLE:=A custom web UI for Transmission
   URL:=https://github.com/ronggang/transmission-web-control
   PKGARCH:=all
 endef
